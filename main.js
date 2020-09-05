@@ -1,5 +1,6 @@
 const cocktailSort = require('./cocktailSort')
 const generateArray = require('./misc/generateArray')
+const insertionSort = require('./insertionSort')
 
-console.log(cocktailSort(generateArray(20), 'min'))
+console.log(insertionSort(generateArray(20, 1, 99), 'max'))
 

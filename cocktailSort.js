@@ -25,21 +25,3 @@ const cocktailSort = (arr, str) => {
     return arr
 }
 module.exports = cocktailSort
-
-
-/*
-   for(let i = 0; i < arr.length - 1 - i + 1; i++){
-
-        for(let j = arr.length - 1; j < arr.length - 1 - i; j++){
-            if(arr[j] > arr[j+1]){
-                let swap = arr[j]
-                arr[j] = arr[j+1]
-                arr[j+1] = swap
-            }
-        }
-
-        for(let k = arr.length - 1 + i; k === 1 + i; k++){
-            if(arr[k] )
-        }
-    }
-*/
