@@ -1,6 +1,8 @@
-const cocktailSort = require('./cocktailSort')
+//const cocktailSort = require('./cocktailSort')
 const generateArray = require('./misc/generateArray')
-const insertionSort = require('./insertionSort')
-
-console.log(insertionSort(generateArray(20, 1, 99), 'max'))
+//const insertionSort = require('./insertionSort')
+const selectionSort = require('./selectionSort')
+let arr = generateArray(20, 1, 99)
+console.log(arr)
+console.log(selectionSort(arr))
 
